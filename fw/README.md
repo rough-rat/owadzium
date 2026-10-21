@@ -48,3 +48,16 @@ CONNECT_UNDER_RESET=1 ./flash.sh
 ```sh
 probe-rs attach --chip PY32F030x8 target/thumbv6m-none-eabi/release/blobbadge-fw
 ```
+
+## LED brigtness notes
+
+The schematic of the bug badge is direct IO-LED connection. No resistor in series.
+This isn't done according to best practices, but we can get away with this, as the
+circuit is very simple. Also, in theory, PWMing LEDs gives us a bit more optimal
+usage of the battery juice.
+
+2 bottom LED pairs should be green, 2 top should be pink.
+
+Green: ~2V
+Pink: ~2.8V
+

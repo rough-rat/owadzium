@@ -753,7 +753,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "/tmp/8papiez.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -833,6 +833,18 @@
           "label": "LedMX-name",
           "name": "LedMX-name",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -891,7 +903,7 @@
         "uuid": "56472f0f-b501-4745-be4e-714d2b047146"
       }
     ],
-    "used_designators": "",
+    "used_designators": "LED100",
     "variants": []
   },
   "sheets": [
