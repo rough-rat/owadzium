@@ -78,11 +78,35 @@
       ],
       "drc_exclusions": [
         [
-          "solder_mask_bridge|95400000|82980000|801d59d4-e535-4dbc-a158-31d18f80d2c2|da821bb8-350b-4e7a-bed3-1a71965785d7",
+          "copper_edge_clearance|101600000|74800000|9876b493-f9a4-4475-a198-c24f8ff6cac8|ecd916c4-1e5e-490d-91fa-b097d07d5df8",
           ""
         ],
         [
-          "solder_mask_bridge|97100000|82980000|801d59d4-e535-4dbc-a158-31d18f80d2c2|da821bb8-350b-4e7a-bed3-1a71965785d7",
+          "copper_edge_clearance|94450000|75009132|9876b493-f9a4-4475-a198-c24f8ff6cac8|348b8800-2ec2-4c58-a052-30fcb3177090",
+          ""
+        ],
+        [
+          "copper_edge_clearance|94500000|75000000|9876b493-f9a4-4475-a198-c24f8ff6cac8|8430a495-7d92-4385-9a5f-11a24ad8d4ea",
+          ""
+        ],
+        [
+          "copper_edge_clearance|98025000|119015000|44f8701e-4034-4607-8171-90d80e0a9009|72d4c820-88ac-4156-b982-590bc7133784",
+          ""
+        ],
+        [
+          "courtyards_overlap|101995000|113526616|2a20977c-ea89-4a61-ab2b-7d7e345c8378|aeb48e40-ad16-4f2e-8b65-8510bd2c96d7",
+          ""
+        ],
+        [
+          "courtyards_overlap|94005000|112005000|6b330859-ed5a-4ffc-a736-b85e2a1ee91d|aeb48e40-ad16-4f2e-8b65-8510bd2c96d7",
+          ""
+        ],
+        [
+          "courtyards_overlap|97005000|112005000|34dda1e7-eb20-42a2-a45c-490785c06de2|aeb48e40-ad16-4f2e-8b65-8510bd2c96d7",
+          ""
+        ],
+        [
+          "silk_edge_clearance|103200000|76600000|9876b493-f9a4-4475-a198-c24f8ff6cac8|b34848b7-19f4-45f4-91c7-840841a76023",
           ""
         ]
       ],
@@ -136,7 +160,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "ignore",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -903,7 +927,7 @@
         "uuid": "56472f0f-b501-4745-be4e-714d2b047146"
       }
     ],
-    "used_designators": "LED100",
+    "used_designators": "#PWR112-114,#PWR121-130,SW6,TP100-105,LED100-107",
     "variants": []
   },
   "sheets": [
