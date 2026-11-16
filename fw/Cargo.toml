@@ -2,6 +2,11 @@
 name = "blobbadge-fw"
 version = "0.1.0"
 edition = "2021"
+default-run = "blobbadge-fw"
+
+[[bin]]
+name = "ws2812"
+path = "src/ws2812.rs"
 
 [dependencies]
 panic-halt = "1.0.0"

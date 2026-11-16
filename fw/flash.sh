@@ -3,11 +3,13 @@ set -euo pipefail
 
 CHIP="${CHIP:-PY32F002Ax5}"
 TARGET="${TARGET:-thumbv6m-none-eabi}"
+BIN="${BIN:-blobbadge-fw}"
 
 args=(
   +nightly flash
   --release
   --target "${TARGET}"
+  --bin "${BIN}"
   --chip "${CHIP}"
 )
 

@@ -1,3 +1,4 @@
 /target
 
 .vscode
+/tools/ws2812-source/.pio/
