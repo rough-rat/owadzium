@@ -2170,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 68.58 78.74)
+			(xy 68.58 106.68) (xy 68.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2180,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 91.44) (xy 54.61 92.71)
+			(xy 54.61 116.84) (xy 54.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 91.44) (xy 68.58 92.71)
+			(xy 68.58 116.84) (xy 68.58 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 81.28) (xy 54.61 78.74)
+			(xy 54.61 106.68) (xy 54.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2330,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 104.14) (xy 54.61 101.6)
+			(xy 54.61 82.55) (xy 54.61 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 104.14) (xy 68.58 101.6)
+			(xy 68.58 82.55) (xy 68.58 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2580,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 114.3) (xy 54.61 115.57)
+			(xy 54.61 92.71) (xy 54.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 114.3) (xy 68.58 115.57)
+			(xy 68.58 92.71) (xy 68.58 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2709,7 @@
 		(uuid "fdd6bea6-845c-441a-8443-774c775f79a4")
 	)
 	(label "WLED1"
-		(at 68.58 78.74 180)
+		(at 68.58 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2879,7 +2879,7 @@
 		(uuid "93be4c80-a52f-4020-ad38-850879490762")
 	)
 	(label "LED3"
-		(at 68.58 101.6 180)
+		(at 68.58 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2919,7 +2919,7 @@
 		(uuid "a9b3e5b0-5d47-4d7d-83ae-38bfeb86b9db")
 	)
 	(label "WLED0"
-		(at 54.61 78.74 0)
+		(at 54.61 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 		(uuid "d5efc169-a2de-4991-b530-f1d66153cab0")
 	)
 	(label "LED2"
-		(at 54.61 101.6 0)
+		(at 54.61 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3080,7 +3080,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 92.71 0)
+		(at 54.61 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3091,7 +3091,7 @@
 		(fields_autoplaced yes)
 		(uuid "07f0c62e-2fb9-43f2-b89f-ff7b99ad2186")
 		(property "Reference" "#PWR0121"
-			(at 54.61 99.06 0)
+			(at 54.61 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3102,7 +3102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 97.1534 0)
+			(at 54.61 122.5534 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3113,7 +3113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 92.71 0)
+			(at 54.61 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3124,7 +3124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 92.71 0)
+			(at 54.61 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3135,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 92.71 0)
+			(at 54.61 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +3896,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:XL-1606UGC")
-		(at 54.61 86.36 270)
+		(at 54.61 111.76 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3908,7 +3908,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b1b7187-2143-4048-8f2d-412700c1f8a2")
 		(property "Reference" "LED100"
-			(at 52.195 85.9078 90)
+			(at 52.195 111.3078 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3919,7 +3919,7 @@
 			)
 		)
 		(property "Value" "XL-1606UGC"
-			(at 52.195 88.3321 90)
+			(at 52.195 113.7321 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3930,7 +3930,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_L1.7-W1.1-R-RD_GREEN"
-			(at 46.99 86.36 0)
+			(at 46.99 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,7 +3941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 86.36 0)
+			(at 54.61 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3952,7 +3952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 86.36 0)
+			(at 54.61 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,7 +3963,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 44.45 86.36 0)
+			(at 44.45 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,7 +3974,7 @@
 			)
 		)
 		(property "LCSC" "C965863"
-			(at 54.61 86.36 90)
+			(at 54.61 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3985,7 +3985,7 @@
 			)
 		)
 		(property "LedMX-name" ""
-			(at 54.61 86.36 90)
+			(at 54.61 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4091,7 +4091,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 115.57 0)
+		(at 68.58 93.98 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4103,7 +4103,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f4ad422-9ccd-433c-b41d-19ca1f049d86")
 		(property "Reference" "#PWR0128"
-			(at 68.58 121.92 0)
+			(at 68.58 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4114,7 +4114,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 120.0134 0)
+			(at 68.58 98.4234 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4125,7 +4125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 115.57 0)
+			(at 68.58 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4136,7 +4136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 115.57 0)
+			(at 68.58 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4147,7 +4147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 115.57 0)
+			(at 68.58 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,7 +5549,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:CT-1706UFC-P11")
-		(at 55.88 109.22 270)
+		(at 55.88 87.63 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5560,7 +5560,7 @@
 		(dnp no)
 		(uuid "c67988c6-626c-4ab0-869e-a174f072ec70")
 		(property "Reference" "LED105"
-			(at 52.195 108.7678 90)
+			(at 52.195 87.1778 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5571,7 +5571,7 @@
 			)
 		)
 		(property "Value" "CT-1706UFC-P11"
-			(at 52.195 111.1921 90)
+			(at 52.195 89.6021 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5582,7 +5582,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_L1.7-W1.1-RD_RED"
-			(at 46.99 109.22 0)
+			(at 46.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5593,7 +5593,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C52675980.pdf"
-			(at 44.45 109.22 0)
+			(at 44.45 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +5604,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 109.22 0)
+			(at 55.88 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5615,7 +5615,7 @@
 			)
 		)
 		(property "Manufacturer" "冲天"
-			(at 41.91 109.22 0)
+			(at 41.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5626,7 +5626,7 @@
 			)
 		)
 		(property "MPN" "CT-1706UFC-P11"
-			(at 39.37 109.22 0)
+			(at 39.37 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5637,7 +5637,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 36.83 109.22 0)
+			(at 36.83 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5648,7 +5648,7 @@
 			)
 		)
 		(property "LCSC" "C52675980"
-			(at 55.88 109.22 90)
+			(at 55.88 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,7 +5659,7 @@
 			)
 		)
 		(property "LedMX-name" ""
-			(at 55.88 109.22 90)
+			(at 55.88 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5990,7 +5990,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 92.71 0)
+		(at 68.58 118.11 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6002,7 +6002,7 @@
 		(fields_autoplaced yes)
 		(uuid "d128bacf-108d-4b64-adb4-aa3c0df7c155")
 		(property "Reference" "#PWR0122"
-			(at 68.58 99.06 0)
+			(at 68.58 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6013,7 +6013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 97.1534 0)
+			(at 68.58 122.5534 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6024,7 +6024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 92.71 0)
+			(at 68.58 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6035,7 +6035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 92.71 0)
+			(at 68.58 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6046,7 +6046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 92.71 0)
+			(at 68.58 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6148,7 +6148,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:CT-1706UFC-P11")
-		(at 67.31 109.22 90)
+		(at 67.31 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6158,7 +6158,7 @@
 		(dnp no)
 		(uuid "dd202b68-8af8-464e-ae29-0381309c5dd5")
 		(property "Reference" "LED106"
-			(at 70.995 108.7678 90)
+			(at 70.995 87.1778 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6169,7 +6169,7 @@
 			)
 		)
 		(property "Value" "CT-1706UFC-P11"
-			(at 70.995 111.1921 90)
+			(at 70.995 89.6021 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6180,7 +6180,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_L1.7-W1.1-RD_RED"
-			(at 76.2 109.22 0)
+			(at 76.2 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6191,7 +6191,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C52675980.pdf"
-			(at 78.74 109.22 0)
+			(at 78.74 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6202,7 +6202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 109.22 0)
+			(at 67.31 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6213,7 +6213,7 @@
 			)
 		)
 		(property "Manufacturer" "冲天"
-			(at 81.28 109.22 0)
+			(at 81.28 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6224,7 +6224,7 @@
 			)
 		)
 		(property "MPN" "CT-1706UFC-P11"
-			(at 83.82 109.22 0)
+			(at 83.82 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6235,7 +6235,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 86.36 109.22 0)
+			(at 86.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,7 +6246,7 @@
 			)
 		)
 		(property "LCSC" "C52675980"
-			(at 67.31 109.22 90)
+			(at 67.31 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,7 +6257,7 @@
 			)
 		)
 		(property "LedMX-name" ""
-			(at 67.31 109.22 90)
+			(at 67.31 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6284,7 +6284,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 115.57 0)
+		(at 54.61 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6295,7 +6295,7 @@
 		(fields_autoplaced yes)
 		(uuid "de9e4dcb-76d5-4a64-ac38-14324f81392b")
 		(property "Reference" "#PWR0126"
-			(at 54.61 121.92 0)
+			(at 54.61 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6306,7 +6306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 120.0134 0)
+			(at 54.61 98.4234 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6317,7 +6317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 115.57 0)
+			(at 54.61 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6328,7 +6328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 115.57 0)
+			(at 54.61 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6339,7 +6339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 115.57 0)
+			(at 54.61 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7047,7 +7047,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:XL-1606UGC")
-		(at 68.58 86.36 90)
+		(at 68.58 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7058,7 +7058,7 @@
 		(fields_autoplaced yes)
 		(uuid "faf24ae8-d2c7-4c51-988c-d051e3dbcfcf")
 		(property "Reference" "LED102"
-			(at 70.995 85.9078 90)
+			(at 70.995 111.3078 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7069,7 +7069,7 @@
 			)
 		)
 		(property "Value" "XL-1606UGC"
-			(at 70.995 88.3321 90)
+			(at 70.995 113.7321 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7080,7 +7080,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_L1.7-W1.1-R-RD_GREEN"
-			(at 76.2 86.36 0)
+			(at 76.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7091,7 +7091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 86.36 0)
+			(at 68.58 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7102,7 +7102,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 86.36 0)
+			(at 68.58 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7113,7 +7113,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 78.74 86.36 0)
+			(at 78.74 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7124,7 +7124,7 @@
 			)
 		)
 		(property "LCSC" "C965863"
-			(at 68.58 86.36 90)
+			(at 68.58 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7135,7 +7135,7 @@
 			)
 		)
 		(property "LedMX-name" ""
-			(at 68.58 86.36 90)
+			(at 68.58 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
