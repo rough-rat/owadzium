@@ -315,21 +315,22 @@ async fn main(_spawner: Spawner) {
 
     let button = Input::new(p.PB0, Pull::None);
 
-    // pa2, pa6, pa3, pa8 - green
-    // pa0, pa4, pa1, pa5 - pink
+    // order per bank: upper-left, lower-left, upper-right, lower-right
+    // pa4, pa6, pa5, pa8 - green (bottom half, XL-1606UGC)
+    // pa0, pa2, pa1, pa3 - pink  (top half, CT-1706UFC-P11)
 
     let green_pins = [
-        p.PA2.degrade(),
+        p.PA4.degrade(),
         p.PA6.degrade(),
-        p.PA3.degrade(),
+        p.PA5.degrade(),
         p.PA8.degrade(),
     ];
 
     let pink_pins = [
         p.PA0.degrade(),
-        p.PA4.degrade(),
+        p.PA2.degrade(),
         p.PA1.degrade(),
-        p.PA5.degrade(),
+        p.PA3.degrade(),
     ];
 
     let mut green = LedBank::new(0, green_pins);

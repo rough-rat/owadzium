@@ -18,7 +18,7 @@ extern "C" {
 }
 
 const CLOCK: u32 = 24_000_000;
-const LED_PINS: [u8; 8] = [2, 6, 3, 8, 0, 4, 1, 5];
+const LED_PINS: [u8; 8] = [4, 6, 5, 8, 0, 2, 1, 3];
 const LED_MASK: u32 = 0x17f;
 const RESET_TICKS: u32 = CLOCK / 1_000_000 * 50;
 const LOCAL_BYTES: usize = 8 * 3;

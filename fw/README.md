@@ -58,14 +58,14 @@ order follows the existing firmware banks:
 
 | Pixel | Pin | Physical color |
 | --- | --- | --- |
-| 0 | PA2 | green |
+| 0 | PA4 | green |
 | 1 | PA6 | green |
-| 2 | PA3 | green |
+| 2 | PA5 | green |
 | 3 | PA8 | green |
 | 4 | PA0 | pink |
-| 5 | PA4 | pink |
+| 5 | PA2 | pink |
 | 6 | PA1 | pink |
-| 7 | PA5 | pink |
+| 7 | PA3 | pink |
 
 ```sh
 cargo build --release --bin ws2812
